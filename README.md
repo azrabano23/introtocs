@@ -111,6 +111,7 @@ Skills Used:
 - Graphical and Text-Based Testing: Interacting with the game using provided GraphicalDriver and TextDriver tools for debugging and simulation.
 
 Key Features of the Program
+
 Grid Initialization and Mine Placement:
 placeMines: Sets up the game board by placing mines in specified locations and marking them on the grid.
 
