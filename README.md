@@ -5,47 +5,59 @@ To access the code, please ensure you open the .java files.
 # Assignment 2
 
 Gravitational Force: The GravitationalForce.java program calculates the gravitational force between two objects using their masses and the distance between them. The program takes three double values as command-line arguments, performs the computation, and displays the result.
+
 Skills Used: Mathematical Computation, Command-Line Argument Parsing, Double Data Type Handling, Basic Arithmetic Operations, Precision Output Formatting
 
 Palindrome: The Palindrome.java program checks whether six integers provided as command-line arguments form a palindrome pattern. A phrase is a palindrome if it reads the same forward and backward. It uses a boolean expression to verify if the first equals the last, the second equals the second-to-last, and the third equals the third-to-last, printing true if all conditions are met and false otherwise. 
+
 Skills Used: Command-Line Argument Parsing, Integer Data Type Handling, Boolean Expressions, Logic Evaluation, Symmetry Detection in Data
 
 
 # Assignment 3
 
 Floor is Lava: The FloorIsLava.java program simulates a sequence of safe spaces (stones) and dangerous spaces (lava) based on an input integer. It first prints all even numbers up to the input in ascending order (representing stones), then switches to print odd numbers in descending order (representing the reversed lava/stone state). 
+
 Skills Used: Command-Line Argument Parsing, Control Flow, Modulus Operations, Ascending/Descending Sorting, Looping for Data Generation, Basic Algorithm Design
 
 Elevator: The Elevator.java program simulates the operation of two elevators servicing floor requests in a building, considering proximity and priority rules. It determines which elevator services each request and handles restricted floors by validating access through an optional passcode. The program efficiently processes multiple requests, prioritizes Elevator 1 in case of ties, and outputs the elevator servicing each floor and whether access to restricted floors is granted or denied.
+
 Skills Used: Queue Simulation, Proximity Calculation, Conditional Logic for Priority, Modulus Operations for Passcode Validation, Data Processing and Decision Making, Multi-Object State Tracking
 
 # Assignment 4
 
 BusStop: The BusStop.java program determines the arrival order of buses at a stop based on a sequence of bus route names provided as input. It identifies when Serena’s desired bus will arrive or returns -1 if the bus does not stop there. The program uses a 1D array and looping techniques to search for the specified bus efficiently.
+
 Skills Used: Array Handling, Character Data Manipulation, Looping for Searching, Conditional Logic, Input Validation, Index-Based Operations
 
 Egyptian Pyramid: The EgyptianPyramid.java program builds a 2D pyramid grid using a specified number of bricks (X) and fills the remaining spaces with = to represent empty spots. It constructs and prints the pyramid using a 2D array, updating the grid dynamically based on the number of bricks provided. The program also outputs the number of unused bricks after the pyramid construction.
+
 Skills Used: 2D Array Manipulation, Nested Looping, Grid Construction Logic, Character Data Representation, Conditional Statements, Output Formatting
 
 # Assignment 5
 
 Fruit Costs: The FruitCosts.java program reads a list of fruits and their costs from an input file, identifies the two lowest-cost fruits, and calculates their total cost. Using 1D parallel arrays, the program efficiently stores and processes the fruit names and their corresponding prices.
+
 Skills Used: File Input Handling with StdIn, 1D Parallel Arrays, Looping and Iteration, Sorting and Minimum Selection. String and Numeric Data Handling, Arithmetic Operations, Output Formatting, 
 
 Character Counter: The CharacterCounter.java program counts the occurrences of each character in a file and calculates their frequencies using a 1D integer array. The program processes ASCII characters, focusing on printable values (32–126), and writes the results to an output file in a specific format. 
+
 Skills Used: File Input/Output Handling with StdIn and StdOut, 1D Arrays for Frequency Counting, ASCII Character Handling, Looping and Iteration, Data Casting Between char and int, Percentage and Frequency Calculation, Output File Formatting
 
 # Assignment 6
 
 Matryoshka Doll: The Matryoshka.java program simulates the creation of Russian nesting dolls using recursion and iterative functions. It features a stackDolls() recursive method to draw a series of adjacent, progressively smaller dolls and a drawDoll() iterative method to render each doll with a head and body using StdDraw. 
+
 Skills Used: Recursive Function Design, Iterative Graphics Drawing, StdDraw Library Usage, Geometric Shape Calculations, Command-Line Argument Parsing, Function Parameterization, Canvas-Based Rendering
 
 Quadratic Koch: The QuadraticKoch.java program generates a fractal pattern, the Quadratic Koch Snowflake, using recursive and iterative methods. The koch() recursive function creates segments of the snowflake, while getCoords() calculates coordinates for each segment using geometric transformations. This project focuses on recursion, fractal geometry, and 2D graphical programming.
+
 Skills Used: Recursive Function Design, Iterative Coordinate Calculation, StdDraw Library for Fractal Drawing, 2D Array Manipulation, Command-Line Argument Parsing, Fractal and Geometric Transformations, Visualization of Recursive Patterns
 
 # Assignment 7
 
-Solar Panel Consultant Project: The SolarPanels.java program simulates the process of planning, installing, and maintaining solar panel projects on Rutgers parking lots to optimize electricity generation and cost savings. It involves reading street maps and parking lot data, installing solar panels, updating their efficiency and electricity generation, and calculating Rutgers' yearly savings. This project focuses on array manipulation, 2D mapping, object-oriented programming, and energy efficiency calculations.
+Solar Panel Consultant Project: The SolarPanels.java program simulates the process of planning, installing, and maintaining solar panel projects on Rutgers parking lots to optimize electricity generation and cost savings. It involves reading street maps and parking lot data, installing solar panels, updating their efficiency and electricity generation, and calculating Rutgers' yearly savings. 
+
+This project focuses on array manipulation, 2D mapping, object-oriented programming, and energy efficiency calculations.
 
 Skills Used: 
 - 2D Array Manipulation: Handling a grid-like structure to represent street maps and solar panel placements.
