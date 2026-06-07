@@ -90,7 +90,7 @@ Randomized Simulation:
 - Simulates the functionality of solar panels, considering a 95% chance of them working.
 
 File Integration:
-- Processes multiple input files containing map, lot, and panel data for seamless testing and simulation.
+- Processes multiple input files containing map, lot, and panel data for testing and simulation.
 
 Real-World Applications
 This project simulates a practical approach to renewable energy planning and cost savings in a large institution.
